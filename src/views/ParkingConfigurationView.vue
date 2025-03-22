@@ -1,13 +1,13 @@
 <template>
   <div class="container-fluid mt-4">
-    <div class="row">
-      <!-- Componente AdAside -->
-      <div class="col-12 col-lg-3 mb-4">
+    <div class="row justify-content-center">
+      <!-- Componente AdAside - Comentado para ocultarlo -->
+      <!-- <div class="col-12 col-lg-3 mb-4">
         <AdAside />
-      </div>
+      </div> -->
 
-      <!-- Componente ParkingConfiguration -->
-      <div class="col-12 col-lg-9">
+      <!-- Componente ParkingConfiguration - Ahora más ancho y centrado -->
+      <div class="col-12 col-lg-8">
         <ParkingConfiguration />
       </div>
     </div>
@@ -16,12 +16,12 @@
 
 <script>
 import ParkingConfiguration from '../components/ParkingConfiguration.vue';
-import AdAside from '../components/AdAside.vue';
+// import AdAside from '../components/AdAside.vue'; 
 
 export default {
   components: {
     ParkingConfiguration,
-    AdAside
+    // AdAside 
   }
 };
 </script>
